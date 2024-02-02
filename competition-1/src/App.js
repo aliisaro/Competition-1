@@ -18,7 +18,6 @@ export default function App() {
       <br></br>
       <h1>Iteration 3: Component Random</h1>
       <Random />
-
       <br></br>
       <h1>Iteration 4: Component BoxColor</h1>
       <BoxColor r={255} g={0} b={0} />
