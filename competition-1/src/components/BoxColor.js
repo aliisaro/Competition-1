@@ -14,7 +14,7 @@ const BoxColor = ({ r, g, b }) => {
   return (
     <div
       style={{
-        width: '800px',
+        width: '650px',
         height: '100px',
         backgroundColor: `rgb(${clampedR}, ${clampedG}, ${clampedB})`,
         color: luminance > 0.5 ? 'black' : 'white',
@@ -25,11 +25,13 @@ const BoxColor = ({ r, g, b }) => {
         textAlign: 'center',
         outline: '2px solid black',
         marginTop: "20px",
-        marginLeft: "20px"
+        padding: '10px',
+        fontFamily: 'sans-serif',
+        fontSize: '25px'
       }}
     >
-      <p style={{ margin: '0', padding: '5px', lineHeight: '1' }}>{`rgb(${clampedR}, ${clampedG}, ${clampedB})`}</p>
-      <p style={{ margin: '0', padding: '5px', lineHeight: '1' }}>{rgbHex}</p>
+      <p style={{ margin: '0', padding: '5px', lineHeight: '1'}}>{`rgb(${clampedR}, ${clampedG}, ${clampedB})`}</p>
+      <p style={{ margin: '0', padding: '5px', lineHeight: '1'}}>{rgbHex}</p>
     </div>
   );
 };

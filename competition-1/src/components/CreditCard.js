@@ -8,38 +8,33 @@ function CreditCard({
   bgColor,
   color,
 }) {
-
   if (number === "0995") {
     return (
-        <section className="CreditCard" style={{ background: bgColor }}>
-          <img class="img2" src={type} alt="logo" />
-          <p style={{ color: color, fontSize: 30, marginLeft: 30 }}>
-            •••• •••• •••• {number}
-          </p>
-          <li style={{ color, fontSize: 13, marginLeft: 15 }}>
-            Expires: {expirationMonth} / {expirationYear} {bank}
-          </li>
-          <li style={{ color, fontSize: 13, marginLeft: 15, marginBottom: 30 }}>
-            {owner}
-          </li>
-        </section>
-      );
+      <section className="CreditCard" style={{ background: bgColor }}>
+        <img class="img2" src={type} alt="logo" />
+        <p style={{ color: color, fontSize: 30, marginLeft: 30 }}>
+          •••• •••• •••• {number}
+        </p>
+        <li style={{ color, fontSize: 13, marginLeft: 15 }}>
+          Expires: {expirationMonth} / {expirationYear} {bank}
+        </li>
+        <li style={{ color, fontSize: 13, marginLeft: 15, marginBottom: 30 }}>
+          {owner}
+        </li>
+      </section>
+    );
   } else {
-        return (
-            <section className="CreditCard" style={{ background: bgColor }}>
-            <img class= "img1" src={type} alt="logo" />
-            <p style={{ color: color, marginLeft: 30 }}>
-                •••• •••• •••• {number}
-            </p>
-            <li style={{ color, fontSize: 13, marginLeft: 15 }}>
-                Expires: {expirationMonth} / {expirationYear} {bank}
-            </li>
-            <li style={{ color, fontSize: 13, marginLeft: 15, marginBottom: 30 }}>
-                {owner}
-            </li>
-            </section>
-        );
-    }
+    return (
+      <section className="CreditCard" style={{ background: bgColor }}>
+        <img class="img1" src={type} alt="logo" />
+        <p style={{ color: color, marginLeft: 30 }}>•••• •••• •••• {number}</p>
+        <li style={{ color, fontSize: 13, marginLeft: 15 }}>
+          Expires: {expirationMonth} / {expirationYear} {bank}
+        </li>
+        <li style={{ color, fontSize: 13, marginLeft: 15 }}>{owner}</li>
+      </section>
+    );
+  }
 }
 
 export default function Cards() {

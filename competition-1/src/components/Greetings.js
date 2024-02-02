@@ -13,7 +13,7 @@ const Greetings = ({ lang, children }) => {
     case 'es':
       greeting = `Hola ${children}`;
       break;    
-    default:
+    case 'en':
       greeting = `Hello ${children}`;
       break;
   }
@@ -23,12 +23,11 @@ const Greetings = ({ lang, children }) => {
       style={{
         outline: '2px solid black',
         marginTop: "20px",
-        marginLeft: "5px",
-        width: "500px",
-        padding: "5px"
-      }}
+        width: "600px",
+        padding: "5px",
+        fontFamily: "sans-serif"}}
     >
-      <p>{greeting}</p>
+      <p style={{fontSize: 25, margin: 7, marginLeft: 5}}>{greeting}</p>
     </div>
   );
 };

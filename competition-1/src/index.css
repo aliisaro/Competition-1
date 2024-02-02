@@ -2,9 +2,8 @@
 .IdCard {
   border: 2px solid black;
   margin-top: 20px;
-  display: flex;
   font-family: sans-serif;
-  width: 40%;
+  width: 700px;
   overflow:hidden;
 }
 
@@ -24,21 +23,21 @@
 }
 /*/ //////////ITERATION 1 ////////////*/
 
-
-
 /*///////////ITERATION 3 ////////////*/
 .Random {
   border: 2px solid black;
   margin-top: 20px;
-  font-family: sans-serif;
-  width: 40%;
+  width: 600px;
+  padding: 5px;
+}
+
+.Random p {
   font-size: 25px;
-  padding-left: 10px;
-  overflow:hidden;
+  font-family: sans-serif;
+  margin: 7px; 
+  margin-left: 5px;
 }
 /*/ //////////ITERATION 3 ////////////*/
-
-
 
 /*/ //////////ITERATION 5 ////////////*/
 .CreditCard {
@@ -46,8 +45,8 @@
   margin-top: 20px;
   font-family: sans-serif;
   float: left;
-  width: 15%;
-  height: 155px;
+  width: 290px;
+  height: 150px;
   margin: 10px;
   overflow:hidden;
 }

@@ -11,7 +11,8 @@ export default function App() {
       <IdCard />
       <br></br>
       <h1>Iteration 2 Component Greetings</h1>
-      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="en">Ludwig</Greetings>
+      <Greetings lang="de">Michael</Greetings>
       <Greetings lang="fr">François</Greetings>
       <Greetings lang="es">Pablo</Greetings>
       <br></br>
