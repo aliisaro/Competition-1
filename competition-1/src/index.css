@@ -1,0 +1,79 @@
+/*///////////ITERATION 1 ////////////*/
+.IdCard {
+  border: 2px solid black;
+  margin-top: 20px;
+  display: flex;
+  font-family: sans-serif;
+  width: 40%;
+  overflow:hidden;
+}
+
+.IdCard img {
+  float: left;
+  margin: 5px;
+}
+
+.IdCard ul {
+  margin-top: 5px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.IdCard li {
+  margin-top: 2px;
+}
+/*/ //////////ITERATION 1 ////////////*/
+
+
+
+/*///////////ITERATION 3 ////////////*/
+.Random {
+  border: 2px solid black;
+  margin-top: 20px;
+  font-family: sans-serif;
+  width: 40%;
+  font-size: 25px;
+  padding-left: 10px;
+  overflow:hidden;
+}
+/*/ //////////ITERATION 3 ////////////*/
+
+
+
+/*/ //////////ITERATION 5 ////////////*/
+.CreditCard {
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  float: left;
+  width: 15%;
+  height: 155px;
+  margin: 10px;
+  overflow:hidden;
+}
+
+.CreditCard .img1 {
+  width: 45px;
+  float: right;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.CreditCard .img2 {
+  width: 25px;
+  float: right;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+
+.CreditCard p {
+  display: inline-block;
+  line-height: 0;
+  font-size: 29px;
+}
+
+.CreditCard li {
+  list-style-type: none;
+}
+/*/ //////////ITERATION 5 ////////////*/
