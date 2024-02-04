@@ -69,10 +69,13 @@
 .CreditCard p {
   display: inline-block;
   line-height: 0;
-  font-size: 29px;
+  font-size: 30px;
+  margin-left: 30px;
 }
 
 .CreditCard li {
   list-style-type: none;
+  font-size: 13px;
+  margin-left: 15px;
 }
 /*/ //////////ITERATION 5 ////////////*/

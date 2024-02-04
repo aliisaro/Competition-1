@@ -7,11 +7,4 @@ function Random({ min, max }) {
     );
 }
 
-export default function Numbers() {
-  return (
-    <div>
-      <Random min={1} max={6} />
-      <Random min={1} max={100} />
-    </div>
-  );
-}
+export default Random; 
